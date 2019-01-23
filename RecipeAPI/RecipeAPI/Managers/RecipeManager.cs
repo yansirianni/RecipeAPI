@@ -12,8 +12,8 @@ namespace RecipeAPI.Managers
         List<Recipe> RecipesData;
 
         public RecipeManager()
-        {
+        {             
 
-        }
+        }        
     }
 }

@@ -1,4 +1,5 @@
-﻿using RecipeAPI.Interfaces;
+﻿using ReceitasAPI.Models;
+using RecipeAPI.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,11 @@ namespace RecipeAPI.Managers
 {
     public class RecipesDataGetter : IRecipesDataGetter
     {
+
+        public List<Recipe> UploadFileRecipeList()
+        {
+            return new List<Recipe>();
+        }
 
     }
 }

@@ -9,6 +9,7 @@ namespace RecipeAPI.Managers
 {
     public class RecipesDataGetter : IRecipesDataGetter
     {
+
         public List<Recipe> UploadFileRecipeList()
         {
             return new List<Recipe>();

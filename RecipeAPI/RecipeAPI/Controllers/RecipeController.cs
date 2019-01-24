@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ReceitasAPI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,16 +19,48 @@ namespace RecipeAPI.Controllers
 
         [HttpGet]
         [Route("GetRecipeByName")]
-        public async Task<ActionResult> GetRecipeByName(string name)
+        public List<Recipe> GetRecipeByName(string name)
         {
-            
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
         }
 
         [HttpGet]
         [Route("GetRecipeByingredient")]
-        public async Task<ActionResult> GetRecipeByingredient(string ingredient)
+        public List<Recipe> GetRecipeByingredient(string ingredient)
         {
+            try
+            {
 
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
+
+        [HttpGet]
+        [Route("GetAllRecipes")]
+        public List<Recipe> GetAllRecipes()
+        {
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
         }
 
     }

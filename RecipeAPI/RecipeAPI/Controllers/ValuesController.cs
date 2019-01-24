@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using ReceitasAPI.Models;
+using RecipeAPI.Managers;
 
 namespace RecipeAPI.Controllers
 {
@@ -12,9 +14,9 @@ namespace RecipeAPI.Controllers
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<IEnumerable<Recipe>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new RecipeManager().ReturnAllRecipes();
         }
 
         // GET api/values/5

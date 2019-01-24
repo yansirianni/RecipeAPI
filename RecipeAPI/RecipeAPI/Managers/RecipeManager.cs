@@ -14,6 +14,16 @@ namespace RecipeAPI.Managers
         public RecipeManager()
         {             
 
-        }        
+        }
+
+        public List<Recipe> FindRecipeByName(string name)
+        {
+            
+        }
+
+        public List<Recipe> FindRecipeByIngredient(string ingredient)
+        {
+
+        }
     }
 }

@@ -5,6 +5,6 @@ namespace RecipeAPI.Interfaces
 {
     public interface IRecipesDataGetter
     {
-        List<Recipe> UploadFileRecipeList();
+        List<Recipe> LoadFileRecipeList();
     }
 }

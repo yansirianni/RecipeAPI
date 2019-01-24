@@ -9,7 +9,7 @@ namespace RecipeAPI.Managers
 {
     public class RecipeManager : IRecipeManager
     {
-        List<Recipe> RecipesData;
+        List<Recipe> RecipesData = new RecipesDataGetter().LoadFileRecipeList();
 
         public RecipeManager()
         {             
@@ -18,12 +18,17 @@ namespace RecipeAPI.Managers
 
         public List<Recipe> FindRecipeByName(string name)
         {
-            
+            return RecipesData;
         }
 
         public List<Recipe> FindRecipeByIngredient(string ingredient)
         {
+            return RecipesData;
+        }
 
+        public List<Recipe> ReturnAllRecipes()
+        {
+            return RecipesData;
         }
     }
 }

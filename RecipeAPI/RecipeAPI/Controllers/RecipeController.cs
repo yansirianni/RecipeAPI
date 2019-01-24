@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ReceitasAPI.Models;
+using RecipeAPI.Managers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,28 +24,30 @@ namespace RecipeAPI.Controllers
         {
             try
             {
+                var RecipeListWithName = new RecipeManager().FindRecipeByName(name);
+                return RecipeListWithName;
 
             }
             catch (Exception ex)
             {
-
-                throw;
+                return null;
             }
 
         }
 
         [HttpGet]
-        [Route("GetRecipeByingredient")]
-        public List<Recipe> GetRecipeByingredient(string ingredient)
+        [Route("GetRecipeByIngredient")]
+        public List<Recipe> GetRecipeByIngredient(string ingredient)
         {
             try
             {
+                var RecipeListWithIngredient = new RecipeManager().FindRecipeByIngredient(ingredient);
+                return RecipeListWithIngredient;
 
             }
             catch (Exception ex)
             {
-
-                throw;
+                return null;
             }
         }
 
@@ -54,12 +57,12 @@ namespace RecipeAPI.Controllers
         {
             try
             {
-
+                var AllRecipes = new RecipeManager().ReturnAllRecipes();
+                return AllRecipes;
             }
             catch (Exception ex)
             {
-
-                throw;
+                return null;
             }
         }
 

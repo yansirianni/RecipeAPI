@@ -1,7 +1,9 @@
-﻿using ReceitasAPI.Models;
+﻿using Newtonsoft.Json;
+using ReceitasAPI.Models;
 using RecipeAPI.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -10,9 +12,17 @@ namespace RecipeAPI.Managers
     public class RecipesDataGetter : IRecipesDataGetter
     {
 
-        public List<Recipe> UploadFileRecipeList()
+        public List<Recipe> LoadFileRecipeList()
         {
-            return new List<Recipe>();
+            List <Recipe> ListRecipes = new List<Recipe>();
+
+            using (StreamReader r = new StreamReader("Receitas.json"))
+            {
+                string json = r.ReadToEnd();
+                ListRecipes = JsonConvert.DeserializeObject<List<Recipe>>(json);
+            }
+
+            return ListRecipes;
         }
 
     }

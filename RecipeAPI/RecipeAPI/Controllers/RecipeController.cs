@@ -21,7 +21,7 @@ namespace RecipeAPI.Controllers
         [HttpGet]
         [Route("GetRecipeByName")]
         public List<Recipe> GetRecipeByName(string name)
-        {
+        {            
             try
             {
                 var RecipeListWithName = new RecipeManager().FindRecipeByName(name);

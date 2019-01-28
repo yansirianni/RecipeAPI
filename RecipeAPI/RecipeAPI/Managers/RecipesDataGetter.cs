@@ -16,7 +16,7 @@ namespace RecipeAPI.Managers
         {
             List <Recipe> ListRecipes = new List<Recipe>();
 
-            using (StreamReader r = new StreamReader("Receitas.json"))
+            using (StreamReader r = new StreamReader("receitas.json"))
             {
                 string json = r.ReadToEnd();
                 ListRecipes = JsonConvert.DeserializeObject<List<Recipe>>(json);

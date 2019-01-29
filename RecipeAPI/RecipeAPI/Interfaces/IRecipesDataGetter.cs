@@ -6,5 +6,6 @@ namespace RecipeAPI.Interfaces
     public interface IRecipesDataGetter
     {
         List<Recipe> LoadFileRecipeList();
+        List<Recipe> RemovesRepeatedRecipes(List<Recipe> recipes);
     }
 }

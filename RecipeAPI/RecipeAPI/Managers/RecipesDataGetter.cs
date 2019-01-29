@@ -25,5 +25,11 @@ namespace RecipeAPI.Managers
             return ListRecipes;
         }
 
+        public List<Recipe> RemovesRepeatedRecipes(List<Recipe> recipes)
+        {
+
+            return recipes;
+        }
+
     }
 }

@@ -1,0 +1,121 @@
+[
+    {
+        "nome": "Brownie de Chocolate com Gengibre do yan",
+        "secao": [
+            {
+                "nome": " Ingredientes",
+                "conteudo": [
+                    "50 g farinha de milho fina",
+                    "10 g de cacau em pó",
+                    "250 g de chocolate meio amargo",
+                    "200 g de manteiga sem sal cortada em cubos",
+                    "20 ml de suco de gengibre",
+                    "5 ovos",
+                    "200 g de açúcar",
+                    "1 colher (chá) de fermento em pó",
+                    "100 g de nozes picadas grosseiramente",
+                    " "
+                ]
+            },
+            {
+                "nome": " Modo de Preparo",
+                "conteudo": [
+                    "1 - Coloque numa tigela a farinha de milho fina e o cacau em pó.",
+                    "2 - Misture e reserve.",
+                    "3 - Numa panela, em banho-maria, derreta o chocolate meio amargo picado com a manteiga sem sal cortada em cubos.",
+                    "4 - Retire do fogo.",
+                    "5 - Adicione o suco de gengibre e misture.",
+                    "6 - Acrescente a mistura de farinha com cacau em pó (reservada acima). Misture bem e reserve.",
+                    "7 - Numa batedeira, coloque os ovos e o açúcar. Bata bem até dobrar de volume.",
+                    "8 - Com a batedeira ainda ligada, adicione o fermento em pó e bata até misturar.",
+                    "9 - Desligue a batedeira. Acrescente a mistura de chocolate (reservada acima) e as nozes picadas. Misture.",
+                    "10 - Transfira a massa para uma assadeira retangular (18 cm X 30 cm) untada e forrada com papel manteiga.",
+                    "11 - Leve para assar em forno médio pré-aquecido a 180°C por +/- 40 minutos.",
+                    "12 - Retire do forno.",
+                    "13 - Cubra o brownie com papel manteiga.",
+                    "14 - Coloque outra assadeira do mesmo tamanho pressionando levemente o brownie para que fique mais compacto e úmido",
+                    "15 - Deixe por +/- 4 horas na geladeira.",
+                    "16 - Retire a assadeira de cima do brownie, desenforme, corte em quadrados e sirva em seguida.",
+                    " "
+                ]
+            },
+            {
+                "nome": " Outras informações",
+                "conteudo": [
+                    "Rendimento: 20 porções "
+                ]
+            }
+        ]
+    },
+    {
+        "nome": "Peixe Delícia de Olinda da Eliane",
+        "secao": [
+            {
+                "nome": " Ingredientes",
+                "conteudo": [
+                    "4 filés de peixe branco limpo (aproximadamente 120g cada)",
+                    "8 bananas pacovã, prata ou nanica maduras e firmes",
+                    "12 fatias de queijo-manteiga (o suficiente para cobrir a forma de acordo com a montagem abaixo)",
+                    "1 colher de sopa de margarina",
+                    "Sal",
+                    "Pimenta-do-reino",
+                    "Azeite",
+                    "Açúcar",
+                    "Canela em pó",
+                    " "
+                ]
+            },
+            {
+                "nome": " Modo de Preparo",
+                "conteudo": [
+                    "1 - Tempere o peixe com sal e pimenta-do-reino e deixe pegar gosto por duas horas na geladeira.",
+                    "2 - Em uma frigideira antiaderente (de preferência com tampa), coloque um fio de azeite e frite o peixe.",
+                    "3 - Em outra frigideira, coloque a bananas partidas ao meio no sentido do comprimento e doure-as com a margarina. Reserve.",
+                    "4 - Em uma forma refratária, monte da seguinte forma: uma camada de peixe, uma camada de banana, uma camada de queijo e repita novamente.",
+                    "5 - Polvilhe com canela e levemente com açúcar. Leve ao forno 220 graus. Espere o queijo derreter e sirva imediatamente.",
+                    " "
+                ]
+            }
+        ]
+    },
+    {
+        "nome": "Paella do Petrúcio",
+        "secao": [
+            {
+                "nome": " Ingredientes",
+                "conteudo": [
+                    "200 g de polvo em pedaços",
+                    "200 g de lula em anéis",
+                    "200 g de mexilhão limpo",
+                    "200 g de marisco limpo",
+                    "800 g de camarão grande limpo cozido",
+                    "200 ml de leite de coco",
+                    "Açafrão a gosto",
+                    "Pimenta-do-reino a gosto",
+                    "Sal a gosto",
+                    "Azeite de oliva",
+                    "Manteiga",
+                    "2 xícaras de arroz",
+                    "2 pés de alho-poró",
+                    "2 pimentões vermelhos",
+                    "2 pimentões verdes",
+                    "2 pimentões amarelos",
+                    "1 cebola grande",
+                    "3 dentes de alho",
+                    "3 tomates grandes",
+                    "Coentro e cebolinha a gosto",
+                    " "
+                ]
+            },
+            {
+                "nome": " Modo de Preparo",
+                "conteudo": [
+                    "1 - Corte ou rale a cebola e o alho, doure no azeite e manteiga acrescentando o alho-poró picadinho.",
+                    "2 - Misture o mexilhão, marisco, polvo e a lula, refogando tudo.",
+                    "3 - Depois, coloque tomate, os pimentões, cebolinha e coentro picados, acrescentando açafrão, pimenta-do-reino e o leite de coco. Misture tudo e quando estiver quase finalizado o cozimento coloque o camarão e acrescente o arroz (cozido).",
+                    " "
+                ]
+            }
+        ]
+    }
+]

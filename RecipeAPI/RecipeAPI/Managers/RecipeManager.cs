@@ -22,11 +22,12 @@ namespace RecipeAPI.Managers
 
             foreach (Recipe recipe in RecipesData)
             {
-                if (name.Equals(recipe.Nome))
+                if ((recipe.Nome).Contains(name))
                 {
                     response.Add(recipe);
                 }
             }
+
             return response;
         }
 
@@ -38,16 +39,16 @@ namespace RecipeAPI.Managers
             {
                 foreach (var secao in recipe.Secao)
                 {
-                    if(secao.Nome.Equals(" Ingredientes"))
+                    if (secao.Nome.Equals(" Ingredientes"))
                     {
                         foreach (string ingrediente in secao.Conteudo)
                         {
-                            if(ingrediente.Equals(ingredient))
+                            if (ingrediente.Equals(ingredient))
                             {
                                 response.Add(recipe);
                             }
                         }
-                    }                    
+                    }
                 }
 
             }

@@ -39,26 +39,25 @@ namespace RecipeAPI.Managers
             {
                 foreach (var secao in recipe.Secao)
                 {
-                    if (secao.Nome.Equals(" Ingredientes"))
+                    if (secao.Nome.Contains("Ingredientes"))
                     {
                         foreach (string ingrediente in secao.Conteudo)
                         {
-                            if (ingrediente.Equals(ingredient))
+                            if (ingrediente.Contains(ingredient))
                             {
                                 response.Add(recipe);
                             }
                         }
                     }
                 }
-
             }
 
-            return RecipesData;
+            return response;
         }
 
         public List<Recipe> ReturnAllRecipes()
         {
             return RecipesData;
-        }
+        }        
     }
 }
